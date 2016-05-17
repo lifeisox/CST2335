@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="hello_message">안녕, 세상아!</string>
+    <string name="ButtonText">나는 버튼입니다</string>
+</resources>
