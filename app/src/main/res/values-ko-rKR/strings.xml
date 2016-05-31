@@ -3,4 +3,10 @@
     <string name="app_name">Lab 1</string>
     <string name="hello_message">안녕, 세상아!</string>
     <string name="ButtonText">나는 버튼입니다</string>
+    <string name="title_activity_login">로긴 액티비티</string>
+    <string name="Button1">버튼 1</string>
+    <string name="Button2">버튼 2</string>
+    <string name="switchTxt">뭔가 켜기</string>
+    <string name="LoginID">로긴 아이디</string>
+    <string name="Password">비밀번호</string>
 </resources>
