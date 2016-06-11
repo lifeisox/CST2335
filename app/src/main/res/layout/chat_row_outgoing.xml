@@ -17,8 +17,7 @@
         android:id="@+id/message_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
         android:layout_marginLeft="10dp"
-        android:layout_weight="0.09"
+        android:layout_weight="1"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 </LinearLayout>

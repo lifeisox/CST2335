@@ -47,11 +47,9 @@ public class ChatWindow extends AppCompatActivity {
 
     // Step 5
     private class ChatAdapter extends ArrayAdapter<String> {
-        private Context myContext;
 
         public ChatAdapter(Context context) {
             super(context, 0);
-            myContext = context;
         }
 
         public int getCount() {
@@ -64,7 +62,7 @@ public class ChatWindow extends AppCompatActivity {
 
         public View getView(int position, View convertView, ViewGroup parent) {
             // Step 9
-            LayoutInflater inflater = (LayoutInflater) myContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LayoutInflater inflater = ChatWindow.this.getLayoutInflater();
             View result;
             if (position % 2 == 0)
                 result = inflater.inflate(R.layout.chat_row_incoming, null);
