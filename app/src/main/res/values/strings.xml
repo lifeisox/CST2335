@@ -8,4 +8,17 @@
     <string name="switchTxt">Enable Something</string>
     <string name="LoginID">Login</string>
     <string name="Password">Password</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="dialog_title">Exit Confirm</string>
+    <string name="dialog_message">Exit button is pressed. Do you want to really exit? </string>
+    <string name="sw_on">Switch is On</string>
+    <string name="sw_off">Switch is Off</string>
+    <string name="shared_message">My information to share</string>
+    <string name="take_message">ListItemsActivity passed: </string>
+    <string name="start_chat">Start Chat</string>
+    <string name="send_button">Send</string>
+    <string name="login_hint">login name</string>
+    <string name="login_button">Login</string>
+    <string name="content_desc">I am the ImageView.</string>
 </resources>
