@@ -21,4 +21,5 @@
     <string name="login_hint">login name</string>
     <string name="login_button">Login</string>
     <string name="content_desc">I am the ImageView.</string>
+    <string name="weatherButtonText">Weather Forecast</string>
 </resources>
