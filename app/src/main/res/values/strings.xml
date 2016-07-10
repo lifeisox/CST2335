@@ -22,4 +22,7 @@
     <string name="login_button">Login</string>
     <string name="content_desc">I am the ImageView.</string>
     <string name="weatherButtonText">Weather Forecast</string>
+    <string name="title_message_list">Messages</string>
+    <string name="title_message_detail">Message Detail</string>
+    <string name="appBarTitle">Detailed Message</string>
 </resources>

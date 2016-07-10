@@ -22,4 +22,5 @@
     <string name="login_hint">로그인명</string>
     <string name="login_button">로그인</string>
     <string name="weatherButtonText">날씨예보</string>
+    <string name="appBarTitle">자세한 메시지</string>
 </resources>

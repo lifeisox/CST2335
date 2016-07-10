@@ -88,9 +88,7 @@ public class WeatherForecast extends AppCompatActivity {
                             publishProgress(75);
                         } else if (parser.getName().equalsIgnoreCase("weather") && set) {
                             iconFilename = parser.getAttributeValue(null, "icon") + ".png";
-
                             publishProgress(100);
-
                         }
                     } else if (eventType == XmlPullParser.END_TAG) {
                         if (parser.getName().equalsIgnoreCase("current"))
