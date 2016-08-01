@@ -22,4 +22,11 @@
     <string name="login_button">Login</string>
     <string name="content_desc">I am the ImageView.</string>
     <string name="weatherButtonText">Weather Forecast</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="toolbarButtonText">Test Toolbar</string>
+    <string name="about_message">Version 1.0, by ByungSeon Kim</string>
+    <string name="alert_title">Do you want to go back?</string>
+    <string name="new_message">New Message</string>
+    <string name="change_message">Change Message</string>
+    <string name="back">Back</string>
 </resources>

@@ -47,6 +47,14 @@ public class StartActivity extends AppCompatActivity {
                 startActivity(new Intent(StartActivity.this, WeatherForecast.class));
             }
         });
+
+        Button toolbarButton = (Button) findViewById(R.id.toolbarButton);
+        toolbarButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(StartActivity.this, TestToolbar.class));
+            }
+        });
     }
 
     @Override
