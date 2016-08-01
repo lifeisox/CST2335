@@ -14,8 +14,8 @@
         android:title="Exit"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_favorite"
-        android:icon="@drawable/favorite"
+        android:id="@+id/action_edit"
+        android:icon="@drawable/edit"
         android:orderInCategory="103"
         android:title="Favorite"
         app:showAsAction="always" />

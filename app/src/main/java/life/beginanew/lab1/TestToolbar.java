@@ -53,12 +53,26 @@ public class TestToolbar extends AppCompatActivity {
                 break;
             case R.id.action_exit:
                 Log.d("Toolbar", "Exit menu selected.");
-                showChangeMessageDialog();
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("Do you want to go back?");
+                builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                });
+                builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        onBackPressed();
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
                 break;
-            case R.id.action_favorite:
-                Log.d("Toolbar", "Favorite menu selected.");
-                Snackbar.make(findViewById(android.R.id.content), "Favorite menu selected.", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            case R.id.action_edit:
+                Log.d("Toolbar", "Edit menu selected.");
+                showChangeMessageDialog();
                 break;
             case R.id.action_about:
                 Toast toast = Toast.makeText(this, getString(R.string.about_message), Toast.LENGTH_LONG);
