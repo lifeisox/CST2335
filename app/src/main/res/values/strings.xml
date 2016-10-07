@@ -29,4 +29,6 @@
     <string name="new_message">New Message</string>
     <string name="change_message">Change Message</string>
     <string name="back">Back</string>
+    <string name="title_message_list">Messages</string>
+    <string name="title_message_detail">Message Detail</string>
 </resources>
